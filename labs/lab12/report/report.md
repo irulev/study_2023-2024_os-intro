@@ -75,15 +75,15 @@ header-includes:
 
 В домашнем каталоге создадим подкаталог `~/work/os/lab_prog`. Создадим в нём файлы: `calculate.h`, `calculate.c`, `main.c` из лабораторной работы.
 
-![create](image/1.PNG){#fig:001 width=70%}
+![create](image/1.png){#fig:001 width=70%}
 
 Выполним компиляцию программы посредством gcc:
 
-![gcc](image/2.PNG){#fig:002 width=70%}
+![gcc](image/2.png){#fig:002 width=70%}
 
 Создадим необходимый Makefile.
 
-![Makefile](image/3.PNG){#fig:003 width=70%}
+![Makefile](image/3.png){#fig:003 width=70%}
 
 Этот Makefile компилирует программу под названием «calcul» из двух исходных файлов: «calculate.c» и «main.c». Он использует компилятор `gcc` и связывается с математической библиотекой. `Makefile` определяет три скрипта:
 
@@ -95,7 +95,7 @@ header-includes:
 
 С помощью `gdb` выполним отладку программы `calcul`.
 
-![gdb](image/4.PNG){#fig:004 width=70%}
+![gdb](image/4.png){#fig:004 width=70%}
 
 # Выводы
 
